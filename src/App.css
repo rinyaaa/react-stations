@@ -1,8 +1,63 @@
 header{
     background-color: #f5f5f5 ;
+    font-size: 30px;
+    text-align: center;
+    height: 20svh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 img{
     width: 300px;
     height: 300px;
+}
+
+.dogContent{
+    display: flex;
+    margin-top: 30px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    gap: 25%;
+    height: 45svh;
+}
+
+.kousin{
+    background-color: aquamarine;
+    border-radius: 12px;
+    padding: 10px 20px;
+    float: inline-end;
+    position: relative;
+    right: 19.3%;
+}
+
+.show{
+    background-color: aquamarine;
+    border-radius: 12px;
+    padding: 10px 20px;
+    float: inline-end;
+    position: relative;
+    right: 30%;
+}
+
+#breed-select{
+    width: 300px;
+    
+}
+
+.breed-list{
+    padding: 20px;
+}
+
+.labels{
+    text-align: center;
+    margin-top: 10svh;
+}
+
+.dogImage{
+    margin-top: 30px;
+    display: flex;
+    grid-template-columns: repeat(3, 1fr); /* 3列のグリッドに */
+    gap: 10px; /* 必要に応じて調整 */
 }

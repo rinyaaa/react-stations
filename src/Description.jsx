@@ -23,9 +23,13 @@ export const Description = () => {
 
   return (
     <>
-      <p>犬の画像を表示するサイトです</p>
-      <DogImage imageUrl={dogUrl} />
-      <button onClick={showDog}>更新</button>
+      <div className="dogContent">
+        <span className="left">犬の画像を表示するサイトです</span>
+        <span className="right">
+          <DogImage imageUrl={dogUrl} />
+        </span>
+      </div>
+      <button className='kousin' onClick={showDog}>更新</button>
     </>
   )
 }
